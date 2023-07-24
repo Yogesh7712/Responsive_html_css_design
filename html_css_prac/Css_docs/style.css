@@ -1,0 +1,312 @@
+*{
+    font-family:Arial, Helvetica, sans-serif ;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+  width:100%; 
+  /* max-width: 1700px; */
+  margin:auto;
+  height:auto;
+}
+
+.background_img {
+    width:100%;
+    height:750px;  
+    background-image: url("C:\\Users\\Admin\\Downloads\\background_image.jpeg");
+    background-size:cover;
+    background-position:center;  
+    background-repeat: no-repeat;  /* background-image property repeats an image horizontally or vertically 
+                               sometimes both to avoid use background no repeat property */
+}
+
+.bck_elements{
+
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  align-items:left;
+  padding:40px;
+  width:1300px;
+  height:700px;
+  box-sizing: border-box;
+  
+}                                  
+
+
+
+.heading { 
+  display:flex;
+  max-width:740px;
+  height:300px;
+  padding:20px 20px 10px 0px; 
+  font-size: 50px;
+  color:#bfa065 ;  
+  vertical-align: text-bottom;
+  /* border-style:solid; */
+}
+  
+.bck_content{
+
+  max-width:700px;
+  font-size:18px;
+  color:#949494;
+  padding:0px 50px 0px 0px;  
+} 
+
+.bck_button{
+  text-align:center;
+  width:200px;
+  border-style: solid;
+  color:#bfa065;
+  margin:50px 700px 400px 0px;
+  border-radius:50px;
+}
+
+.tips {
+  width:370px;
+  background-color: white;
+  padding: 100px 20px 30px 20px;
+  margin:10px ; 
+  
+  justify-content: space-between;
+  margin-top:-6rem;
+  text-align: center  ;
+}
+
+.tips p{
+  color:#949494;
+  text-align: center;
+  text-align-last: center;
+}
+
+.tip_container{
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex ;
+  flex-direction:column;
+  width:100%;
+  margin:auto;
+  justify-content:center;
+  height:auto;
+
+}
+
+.tip_box{
+  margin:auto;
+  display:flex;
+  padding:50px;
+  /* border-style:solid; */
+  height:auto;
+  position:relative;
+  width:100%;
+  justify-content: center;
+} 
+
+.low_sugar{
+ width:100%;
+ text-align:center;
+ margin-top:100px;
+
+}
+
+.low_sugar p{
+  width:650px;   
+  margin:auto;
+  
+}
+
+
+.image_block {
+  display:grid;
+  grid-template-columns: repeat(3,1fr); 
+  width:100%;
+  height:auto;
+  justify-content: center;
+  margin-top:50px;
+  gap:10px;
+}
+
+.img_item img{
+
+}
+
+.img_item{
+  overflow: hidden;
+  width:32%;
+  height:auto;
+
+}
+
+
+
+
+.New_ideas{
+  width:100%;
+  background-color:#f2f2f2;
+  margin-top:30px;
+  justify-content: center;
+  position:relative;
+}
+
+.ideas {
+  width:900px;
+  text-align:center;
+  margin:auto;  
+}
+
+.ideas p{
+  font-weight:normal;
+  color:#212121;
+
+}
+
+
+.health_ideas{
+  max-width:200px;
+  margin-left:50px;
+
+  
+}
+
+.health{
+  display:flex;
+  justify-content: center; 
+  margin-top:50px; 
+  
+}
+
+.health_ideas p{
+color:#949494
+}
+
+.health_button{
+  border-style:solid;
+  text-align:center;
+  width:200px;
+  border-radius:50px;
+  margin:auto;
+  color:#bfa065;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+
+@media only screen and (max-width:1200px){
+  .heading{
+      font-size:40px;
+      max-width:600px;
+      height:250px;
+      /* border-style:solid;   */
+      text-align:left;
+    }
+
+  .bck_content{
+   
+    max-width:600px;
+    padding:10px;  
+  }
+
+  .tips{
+    width:320px;
+  }
+
+  .ideas {
+  width:850px;
+  }
+}
+
+
+@media only screen and (max-width:990px){
+  .heading{
+    font-size:30px;
+    height:200px
+  }
+
+  .tips{
+    width:230px;
+  }
+
+  .ideas{
+    width:700px;
+  }
+
+}
+
+
+@media only screen and (max-width:765px){
+  .heading{
+    font-size:25px;
+    max-width:400px;
+  }
+
+  .bck_content{
+    max-width:400px;
+  }
+
+ .tip_box{
+  display:flex;
+  flex-direction: column;
+  gap:120px;
+ }
+
+  .tips{
+    width:100%;
+    position:relative;  
+  }    
+  
+  .low_sugar p{
+      width:500px;
+  }
+
+  .image_block{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    align-items: center;
+    
+  }
+
+  .img_item{
+    display:flex;
+   width:50%;
+  }
+
+  .ideas{
+    width:450px;
+  }
+}
+
+
+@media only screen and (max-width:575px){
+  .heading{
+    font-size :20px;
+    max-width:300px;
+  }
+
+  .bck_content{
+    max-width:300px;
+    }
+
+  .low_sugar p {
+   width:400px;
+  }
+
+    .low_sugar h1{
+      font-size:1.5rem;
+    }
+
+    .ideas{
+      width:300px;
+    }
+  }
+
+
+
+
+
+
+
+
+
